@@ -14,10 +14,21 @@ header{
 
 }
 
-.section-container{
-    display: flex;
-    justify-content: space-between;
+.coluna-div{
+    display: grid;
+    grid-template-columns: 12;
+    
+    
 }
+
+.coluna-div-2{
+    display: grid;
+    grid-template-columns: 8;
+    float: right;
+    margin-top: -95rem;
+   
+}
+
 
 .div-imagem{
     background-image: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%) , url(imagens/imagem-fundo.png);
