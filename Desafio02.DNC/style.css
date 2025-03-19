@@ -10,24 +10,28 @@ header{
     color: #FFFFFF;
     padding: 1rem 9.75rem 1rem 9.75rem;
     box-shadow: 0rem 0.6rem 1.25rem 0rem #0000001A;
+    margin-bottom: 1.25rem;
+}
 
-
+#div{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.6rem;
 }
 
 .coluna-div{
-    display: grid;
-    grid-template-columns: 12;
-    
+    grid-column: span 8;
     
 }
 
 .coluna-div-2{
-    display: grid;
-    grid-template-columns: 8;
-    float: right;
-    margin-top: -95rem;
+   grid-column: span 4;
+   margin-right: 9.6rem;
+   
    
 }
+
+
 
 
 .div-imagem{
@@ -39,8 +43,8 @@ header{
     height: 24.75rem;
     color: #FFFFFF;
     padding: 1.5rem;   
-    margin-top: 7.5rem;
-    margin-left: 5rem;
+    margin-top: 3.12rem;
+    margin-left: 1.5rem;
     border-radius: 0.5rem ;
     box-shadow: 0rem 0.6rem 1.25rem 0rem #0000001A;
     
@@ -91,7 +95,7 @@ header{
 .posts{
     border-radius: 0.6rem;
     display: flex;
-    margin-top: 4rem;
+    margin-top: 1.25rem;
     box-shadow:  0 0.6rem 0.6rem 0 #0000001A;
     padding: 1rem;
     
@@ -112,19 +116,21 @@ h4{
 #div-cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.6rem;
-    margin-left: 4.6rem;;
+    margin-right: 9.75rem;
+    gap: 1rem;
+    
 }
 
 .cards{
     border-radius: 0.6rem;
     width: 22.5rem;
     height: 24.75rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
     margin-top: 1rem;
     box-shadow:  0 0.6rem 0.6rem 0 #0000001A;
     padding: 0.5rem;
-    
+   
+   
    
 }
 
@@ -139,10 +145,11 @@ h4{
     border-radius: 0.5rem;
     padding: 1rem 1.5rem ;
     box-shadow: #0000001A;
-    margin-bottom: 1rem;
-    margin-left: 4.6rem;
+    margin-bottom: 0.68rem;
+    margin-right: 9.75rem;
+    margin-left: 1.5rem;
     box-shadow: 0 0.6rem 0.6rem 0 #0000001A;
-    margin-top: -18rem;
+    margin-top: 1.5rem;
 }
 
 #titulo-cards > a{
@@ -183,6 +190,7 @@ h4{
     border-radius: 0.5rem;
     align-items: center;
     padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
     box-shadow:  0 0.6rem 0.6rem 0 #0000001A;
 }
 
@@ -212,7 +220,9 @@ h4{
     border-radius: 0.6rem;
     padding: 1rem 1.5rem;
     box-shadow:  0 0.6rem 0.6rem 0 #0000001A;
-    margin-bottom: -3rem;
+    margin-bottom: 1.25rem;
+    margin-top: 3.12rem;
+
 }
 
 h2{
@@ -224,9 +234,11 @@ h2{
 footer{
     background-color: #02A28F;
     color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 600;
     text-align: center;
     height: 3rem;
-    margin-top: 10rem;
+    margin-top: 4.6rem;
     padding: 1.6rem;
 }
 
@@ -239,6 +251,11 @@ footer{
         padding-top: 1rem;
         padding-bottom: 1rem;
         
+    }
+
+    #div{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
     }
 
     .div-imagem{
@@ -254,19 +271,19 @@ footer{
     h1{
         font-size: 1.5em;
         font-weight: 700;
-        line-height: 100%;
     }
 
     #titulo-cards{
         width: 23rem;
         height: 2.5rem;
         margin-left: 1rem;
+        margin-bottom: 1.6rem;
     }
 
     #div-cards{
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 2rem;
+       
     }
     
     .section-container{
@@ -281,6 +298,7 @@ footer{
         height: 3rem;
         text-align: center;
         margin-left: 0.8rem;
+        margin-top: 1.5rem;
     }
 
     .posts{
@@ -296,6 +314,7 @@ footer{
         width: 23rem;
         height: 2rem;
         margin-left: 0.8rem;
+        margin-top: 1.5rem;
 
     }
 
@@ -304,12 +323,12 @@ footer{
         height: 11.5rem;
         gap: 0.8rem;
         margin-left: 0.8rem;
+        margin-bottom: 1.5rem;
     }
 
     footer{
         width: 24rem;
         height: 3rem;
-        margin-top: -18rem;
 
     }
 
