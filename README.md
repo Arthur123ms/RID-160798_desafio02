@@ -1,1 +1,2 @@
-# RID-160798_desafio02
+# Desafio 02
+Blog responsivo com CSS
